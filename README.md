@@ -1,5 +1,23 @@
 # 2048
+### To play:
+Use the up, down, left, right arrows to slide tiles in that direction, merging two tiles of the same value into a new tile with their sum. Your goal is to get the numbers as high as possible.
 
+## CSE 110 - Bug Description
+1. Wait until you see a message in the terminal along the lines of "Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file."
+2. When the build finishes, run `yarn start` to start the dev server. You should see the web app opening!
+
+### Task description
+When the board has no empty cells and no adjacent tiles with the same value (i.e., no legal moves remain), the game should immediately enter the Game Over state. The UI should show the “Game Over” overlay/message and block further moves until the player presses the "Try Again" button. Currently, the "Game Over" is not triggered.
+
+### To submit:
+Run the following commands line by line to commit and push all your changes (or use the sidebar):
+```
+$ git add .
+$ git commit
+$ git push
+```
+
+## About the repository
 [![Travis CI](https://travis-ci.com/scriptex/2048.svg?branch=master)](https://travis-ci.com/scriptex/2048)
 [![Github Build](https://github.com/scriptex/2048/workflows/Build/badge.svg)](https://github.com/scriptex/2048/actions?query=workflow%3ABuild)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/dc46a510b72e4ca5a9ed278889fbb4ac)](https://www.codacy.com/gh/scriptex/2048/dashboard?utm_source=github.com&utm_medium=referral&utm_content=scriptex/2048&utm_campaign=Badge_Grade)
@@ -124,38 +142,3 @@ Support and sponsor my work:
  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/scriptex/scriptex/master/badges/shiba-inu.json" />
 </a>
 </div>
-
----
-# Bug 1
----
-## How to Run The Code
-- git clone this repository using `git clone https://github.com/n2singh/2048-debugging-study.git`
-- open in VSCode
-- in the terminal switch to bug 1's branch using `git checkout 2048-bug-1`
-- run the following commands:
-  `nvm install 22`
-
-  `nvm use 22`
-
-  `npm install`
-
-  `npm start`
-
-- there should be a localhost link, click that to view the working project
-
----
-## Directions
-- Inspect the issues
-- Document yourself every 5-10 mins with the strategies used and steps taken to debug the errors shown
-- Give yourself no more than 45 minutes to complete this task
-- If you do not solve the bugs, no problem! Still, document everything and stop when the time is up
-- Good luck :)
-
-
----
-## Intended Behavior
-
-When the board has no empty cells and no adjacent tiles with the same value (i.e., no legal moves remain), the game should immediately enter the Game Over state. The UI should show the “Game Over” overlay/message and block further moves until the player presses the "Try Again" button.
-
----
-

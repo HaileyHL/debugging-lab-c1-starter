@@ -1,0 +1,18 @@
+{
+    "chat.disableAIFeatures": false,
+    "workbench.startupEditor": "none",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "extensions.ignoreRecommendations": true,
+
+    "editor.inlayHints.enabled": "off",
+    "editor.lightbulb.enabled": "off",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "chat.commandCenter.enabled": false
+}
